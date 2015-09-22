@@ -77,7 +77,7 @@
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
-    <!-- icon src="icon.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="icon.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="icon.png"   gap:platform="android"    gap:qualifier="mdpi" />
     <icon src="icon.png"   gap:platform="android"    gap:qualifier="hdpi" />
     <icon src="icon.png"  gap:platform="android"    gap:qualifier="xhdpi" />
@@ -93,11 +93,11 @@
     <icon src="www/res/icon/ios/icon-72.png"         gap:platform="ios"        width="120" height="120" />
     <icon src="icon.png"          gap:platform="webos" />
     <icon src="icon.png"  gap:platform="winphone" />
-    <icon src="icon.png" gap:platform="winphone"   gap:role="background" / -->
+    <icon src="icon.png" gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
 	<gap:splash src="splash.png" />
-    <!-- gap:splash src="splash.png"       gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="splash.png"       gap:platform="android" gap:qualifier="port-ldpi" />
     <gap:splash src="splash.png"       gap:platform="android" gap:qualifier="port-mdpi" />
     <gap:splash src="splash.png"       gap:platform="android" gap:qualifier="port-hdpi" />
     <gap:splash src="splash.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
@@ -107,7 +107,7 @@
     <gap:splash src="splash.png" gap:platform="ios"     width="640" height="1136" />
     <gap:splash src="splash.png"           gap:platform="ios"     width="768" height="1024" />
     <gap:splash src="splash.png"          gap:platform="ios"     width="1024" height="768" />
-    <gap:splash src="splash.png"      gap:platform="winphone" / -->
+    <gap:splash src="splash.png"      gap:platform="winphone" />
 
     <!--
         Define access to external domains.
